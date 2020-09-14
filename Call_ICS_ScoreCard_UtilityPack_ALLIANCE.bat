@@ -1,0 +1,1 @@
+Powershell.exe C:\Users\admbfridkis\Desktop\CustomTools\ICS_ScoreCard_UtilityPack_ALLIANCE.ps1
