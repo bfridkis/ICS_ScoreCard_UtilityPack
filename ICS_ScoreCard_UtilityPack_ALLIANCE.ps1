@@ -13,7 +13,7 @@ $serviceCheckerJob = Start-Job {
                                   -GroupByMachine "N"
                                } -Name ServiceCheckerJob
 $patchCheckerJob = Start-Job {  
-                                C:\Users\admbfridkis\desktop\customtools\PatchCheckerV2.4.ps1 -Option 3 `
+                                C:\Users\admbfridkis\desktop\customtools\PatchCheckerV2.5.ps1 -Option 3 `
                                 -AllNodes TRUE -OutputMode 1 `
                                 -OutputFile "C:\Users\admbfridkis\desktop\customtools\PatchCheckerOutput_$(if ((Get-Date).Month -eq 1) { "12_$((Get-Date).Year)" } else { "$($(Get-Date).Month - 1)_$((Get-Date).Year)" })" `
                                 -CheckComplianceAsOfDate Today
